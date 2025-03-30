@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+
+# Laravel
+/vendor/
+
+/build/
+/dist/
+
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
+
+*.log

@@ -1,0 +1,361 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TaskTable > renders correctly 1`] = `
+"<div data-v-83bb75ec="" class="v-card v-card--flat v-theme--light bg-transparent v-card--density-default v-card--variant-elevated">
+  <!---->
+  <div class="v-card__loader">
+    <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+      <!---->
+      <div class="v-progress-linear__background"></div>
+      <div class="v-progress-linear__buffer" style="width: 0%;"></div>
+      <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+        <div class="v-progress-linear__indeterminate">
+          <div class="v-progress-linear__indeterminate long"></div>
+          <div class="v-progress-linear__indeterminate short"></div>
+        </div>
+      </transition-stub>
+      <!---->
+    </div>
+  </div>
+  <!---->
+  <!---->
+  <!-- Header Section -->
+  <div data-v-83bb75ec="" class="sticky-header">
+    <header data-v-83bb75ec="" class="v-toolbar v-toolbar--flat v-toolbar--density-default bg-transparent elevation-1 v-theme--light v-locale--is-ltr">
+      <!---->
+      <div class="v-toolbar__content">
+        <!---->
+        <!---->
+        <div data-v-83bb75ec="" class="v-container v-locale--is-ltr px-0 mx-5">
+          <div data-v-83bb75ec="" class="v-row align-center justify-center">
+            <div data-v-83bb75ec="" class="v-col-md-2 v-col-12"><button data-v-83bb75ec="" type="button" class="v-btn v-theme--light text-primary v-btn--density-default v-btn--size-default v-btn--variant-text" data-test="new-task-button"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span><span class="v-btn__prepend"><i class="mdi-plus mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span><span class="v-btn__content" data-no-activator=""> New Task </span>
+                <!---->
+                <!---->
+              </button></div>
+            <div data-v-83bb75ec="" class="v-col-md-6 v-col-12">
+              <div data-v-83bb75ec="" class="v-input v-input--horizontal v-input--center-affix v-input--density-default v-theme--light v-locale--is-ltr v-text-field">
+                <!---->
+                <div class="v-input__control">
+                  <div class="v-field v-field--appended v-field--center-affix v-field--variant-filled v-theme--light v-locale--is-ltr">
+                    <div class="v-field__overlay"></div>
+                    <div class="v-field__loader">
+                      <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+                        <!---->
+                        <div class="v-progress-linear__background"></div>
+                        <div class="v-progress-linear__buffer" style="width: 0%;"></div>
+                        <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+                          <div class="v-progress-linear__indeterminate">
+                            <div class="v-progress-linear__indeterminate long"></div>
+                            <div class="v-progress-linear__indeterminate short"></div>
+                          </div>
+                        </transition-stub>
+                        <!---->
+                      </div>
+                    </div>
+                    <!---->
+                    <div class="v-field__field" data-no-activator=""><label class="v-label v-field-label v-field-label--floating" aria-hidden="true" for="input-1">
+                        <!---->Search by description
+                      </label><label class="v-label v-field-label" for="input-1">
+                        <!---->Search by description
+                      </label>
+                      <!----><input size="1" type="text" id="input-1" aria-describedby="input-1-messages" dense="" class="v-field__input" value="">
+                      <!---->
+                    </div>
+                    <!---->
+                    <div class="v-field__append-inner">
+                      <!----><i class="mdi-magnify mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i>
+                    </div>
+                    <div class="v-field__outline">
+                      <!---->
+                      <!---->
+                    </div>
+                  </div>
+                </div>
+                <!---->
+                <div id="input-1-messages" class="v-input__details" role="alert" aria-live="polite">
+                  <transition-group-stub name="slide-y-transition" tag="div" appear="false" persisted="false" css="true" class="v-messages">
+                    <!---->
+                  </transition-group-stub>
+                  <!---->
+                </div>
+              </div>
+            </div>
+            <div data-v-83bb75ec="" class="v-col-md-4 v-col-12">
+              <div data-v-83bb75ec="" class="v-input v-input--horizontal v-input--center-affix v-input--density-default v-theme--light v-locale--is-ltr v-input--dirty v-text-field v-select v-select--single v-select--selected">
+                <!---->
+                <div class="v-input__control">
+                  <div class="v-field v-field--active v-field--appended v-field--center-affix v-field--dirty v-field--variant-filled v-theme--light v-locale--is-ltr" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="v-menu-5">
+                    <div class="v-field__overlay"></div>
+                    <div class="v-field__loader">
+                      <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+                        <!---->
+                        <div class="v-progress-linear__background"></div>
+                        <div class="v-progress-linear__buffer" style="width: 0%;"></div>
+                        <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+                          <div class="v-progress-linear__indeterminate">
+                            <div class="v-progress-linear__indeterminate long"></div>
+                            <div class="v-progress-linear__indeterminate short"></div>
+                          </div>
+                        </transition-stub>
+                        <!---->
+                      </div>
+                    </div>
+                    <!---->
+                    <div class="v-field__field" data-no-activator=""><label class="v-label v-field-label v-field-label--floating" aria-hidden="true" for="input-3">
+                        <!---->Filter by completion
+                      </label><label class="v-label v-field-label" for="input-3">
+                        <!---->Filter by completion
+                      </label>
+                      <!---->
+                      <div class="v-field__input" data-no-activator="">
+                        <!---->
+                        <!---->
+                        <div class="v-select__selection"><span class="v-select__selection-text">All<!----></span></div><input size="1" type="text" id="input-3" aria-describedby="input-3-messages" inputmode="none" aria-label="Open" title="Open" dense="" value="all">
+                      </div>
+                      <!---->
+                    </div>
+                    <!---->
+                    <div class="v-field__append-inner">
+                      <!----><i class="mdi-menu-down mdi v-icon notranslate v-theme--light v-icon--size-default v-select__menu-icon" aria-hidden="true"></i>
+                      <!---->
+                    </div>
+                    <div class="v-field__outline">
+                      <!---->
+                      <!---->
+                    </div>
+                  </div>
+                </div>
+                <!---->
+                <div id="input-3-messages" class="v-input__details" role="alert" aria-live="polite">
+                  <transition-group-stub name="slide-y-transition" tag="div" appear="false" persisted="false" css="true" class="v-messages">
+                    <!---->
+                  </transition-group-stub>
+                  <!---->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+      <transition-stub name="expand-transition" appear="false" persisted="false" css="true">
+        <!---->
+      </transition-stub>
+    </header>
+  </div>
+  <div data-v-83bb75ec="" style="height: 1px; padding-top: 10px;">
+    <!--v-if-->
+  </div><!-- Table Section -->
+  <div data-v-83bb75ec="" class="table-container mt-12">
+    <div data-v-83bb75ec="" class="v-table v-table--fixed-height v-table--fixed-header v-table--has-top v-table--has-bottom v-theme--light v-table--density-default v-data-table v-data-table--show-select">
+      <!---->
+      <div class="v-table__wrapper" style="height: calc(100vh - 250px);">
+        <table>
+          <!---->
+          <thead>
+            <tr>
+              <th class="v-data-table__td v-data-table-column--no-padding v-data-table-column--align-start v-data-table__th v-data-table__th--sticky" style="width: 48px; position: sticky; top: calc(var(--v-table-header-height) * 0);" colspan="1" rowspan="1">
+                <div class="v-selection-control v-selection-control--density-default v-checkbox-btn">
+                  <div class="v-selection-control__wrapper">
+                    <!---->
+                    <div class="v-selection-control__input"><i class="mdi-checkbox-blank-outline mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i><input id="input-6" aria-disabled="false" type="checkbox" value="true"></div>
+                  </div>
+                  <!---->
+                </div>
+              </th>
+              <th class="v-data-table__td v-data-table-column--align-start v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="position: sticky; top: calc(var(--v-table-header-height) * 0);" colspan="1" rowspan="1">
+                <div class="v-data-table-header__content"><span>Created At</span><i class="mdi-arrow-up mdi v-icon notranslate v-theme--light v-icon--size-default v-data-table-header__sort-icon" aria-hidden="true"></i>
+                  <!---->
+                </div>
+              </th>
+              <th class="v-data-table__td v-data-table-column--align-start v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="position: sticky; top: calc(var(--v-table-header-height) * 0);" colspan="1" rowspan="1">
+                <div class="v-data-table-header__content"><span>Assignee</span><i class="mdi-arrow-up mdi v-icon notranslate v-theme--light v-icon--size-default v-data-table-header__sort-icon" aria-hidden="true"></i>
+                  <!---->
+                </div>
+              </th>
+              <th class="v-data-table__td v-data-table-column--align-start v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="position: sticky; top: calc(var(--v-table-header-height) * 0);" colspan="1" rowspan="1">
+                <div class="v-data-table-header__content"><span>Description</span><i class="mdi-arrow-up mdi v-icon notranslate v-theme--light v-icon--size-default v-data-table-header__sort-icon" aria-hidden="true"></i>
+                  <!---->
+                </div>
+              </th>
+              <th class="v-data-table__td v-data-table-column--align-start v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="position: sticky; top: calc(var(--v-table-header-height) * 0);" colspan="1" rowspan="1">
+                <div class="v-data-table-header__content"><span>Estimated Time (minute)</span><i class="mdi-arrow-up mdi v-icon notranslate v-theme--light v-icon--size-default v-data-table-header__sort-icon" aria-hidden="true"></i>
+                  <!---->
+                </div>
+              </th>
+              <th class="v-data-table__td v-data-table-column--align-start v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="position: sticky; top: calc(var(--v-table-header-height) * 0);" colspan="1" rowspan="1">
+                <div class="v-data-table-header__content"><span>Used Time (minute)</span><i class="mdi-arrow-up mdi v-icon notranslate v-theme--light v-icon--size-default v-data-table-header__sort-icon" aria-hidden="true"></i>
+                  <!---->
+                </div>
+              </th>
+              <th class="v-data-table__td v-data-table-column--align-start v-data-table__th--sortable v-data-table__th v-data-table__th--sticky" style="position: sticky; top: calc(var(--v-table-header-height) * 0);" colspan="1" rowspan="1">
+                <div class="v-data-table-header__content"><span>Completed</span><i class="mdi-arrow-up mdi v-icon notranslate v-theme--light v-icon--size-default v-data-table-header__sort-icon" aria-hidden="true"></i>
+                  <!---->
+                </div>
+              </th>
+              <th class="v-data-table__td v-data-table-column--align-start v-data-table__th v-data-table__th--sticky" style="position: sticky; top: calc(var(--v-table-header-height) * 0);" colspan="1" rowspan="1">
+                <div class="v-data-table-header__content"><span>Actions</span>
+                  <!---->
+                  <!---->
+                </div>
+              </th>
+            </tr>
+            <!---->
+          </thead>
+          <!---->
+          <tbody>
+            <!---->
+            <tr class="v-data-table__tr">
+              <td class="v-data-table__td v-data-table-column--no-padding v-data-table-column--align-start v-data-table__td--select-row" style="width: 48px;">
+                <div class="v-selection-control v-selection-control--density-default v-checkbox-btn">
+                  <div class="v-selection-control__wrapper">
+                    <!---->
+                    <div class="v-selection-control__input"><i class="mdi-checkbox-blank-outline mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i><input id="input-7" aria-disabled="false" type="checkbox" value="true"></div>
+                  </div>
+                  <!---->
+                </div>
+              </td>
+              <td class="v-data-table__td v-data-table-column--align-start">03/30/2025 17:57</td>
+              <td class="v-data-table__td v-data-table-column--align-start"></td>
+              <td class="v-data-table__td v-data-table-column--align-start">Task 1</td>
+              <td class="v-data-table__td v-data-table-column--align-start">10</td>
+              <td class="v-data-table__td v-data-table-column--align-start">5</td>
+              <td class="v-data-table__td v-data-table-column--align-start"><i data-v-83bb75ec="" class="mdi-close mdi v-icon notranslate v-theme--light v-icon--size-default text-red" aria-hidden="true"></i></td>
+              <td class="v-data-table__td v-data-table-column--align-start"><button data-v-83bb75ec="" type="button" class="v-btn v-theme--light v-btn--density-compact v-btn--size-large v-btn--variant-plain" data-test="edit-button" aria-describedby="v-tooltip-9"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                  <!----><span class="v-btn__content" data-no-activator=""><!----><!--teleport start--><!--teleport end--><i data-v-83bb75ec="" class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
+                  <!---->
+                  <!---->
+                </button><button data-v-83bb75ec="" type="button" class="v-btn v-theme--light v-btn--density-compact v-btn--size-large v-btn--variant-plain" aria-describedby="v-tooltip-11"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                  <!----><span class="v-btn__content" data-no-activator=""><!----><!--teleport start--><!--teleport end--><i data-v-83bb75ec="" class="mdi-delete mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
+                  <!---->
+                  <!---->
+                </button></td>
+            </tr>
+            <!---->
+            <tr class="v-data-table__tr">
+              <td class="v-data-table__td v-data-table-column--no-padding v-data-table-column--align-start v-data-table__td--select-row" style="width: 48px;">
+                <div class="v-selection-control v-selection-control--density-default v-checkbox-btn">
+                  <div class="v-selection-control__wrapper">
+                    <!---->
+                    <div class="v-selection-control__input"><i class="mdi-checkbox-blank-outline mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i><input id="input-12" aria-disabled="false" type="checkbox" value="true"></div>
+                  </div>
+                  <!---->
+                </div>
+              </td>
+              <td class="v-data-table__td v-data-table-column--align-start">03/30/2025 17:57</td>
+              <td class="v-data-table__td v-data-table-column--align-start"></td>
+              <td class="v-data-table__td v-data-table-column--align-start">Task 2</td>
+              <td class="v-data-table__td v-data-table-column--align-start">20</td>
+              <td class="v-data-table__td v-data-table-column--align-start">15</td>
+              <td class="v-data-table__td v-data-table-column--align-start"><i data-v-83bb75ec="" class="mdi-check mdi v-icon notranslate v-theme--light v-icon--size-default text-green" aria-hidden="true"></i></td>
+              <td class="v-data-table__td v-data-table-column--align-start"><button data-v-83bb75ec="" type="button" class="v-btn v-theme--light v-btn--density-compact v-btn--size-large v-btn--variant-plain" data-test="edit-button" aria-describedby="v-tooltip-14"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                  <!----><span class="v-btn__content" data-no-activator=""><!----><!--teleport start--><!--teleport end--><i data-v-83bb75ec="" class="mdi-pencil mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
+                  <!---->
+                  <!---->
+                </button><button data-v-83bb75ec="" type="button" class="v-btn v-theme--light v-btn--density-compact v-btn--size-large v-btn--variant-plain" aria-describedby="v-tooltip-16"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                  <!----><span class="v-btn__content" data-no-activator=""><!----><!--teleport start--><!--teleport end--><i data-v-83bb75ec="" class="mdi-delete mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
+                  <!---->
+                  <!---->
+                </button></td>
+            </tr>
+            <!---->
+            <!---->
+          </tbody>
+          <!---->
+          <!---->
+        </table>
+      </div>
+      <hr class="v-divider v-theme--light" aria-orientation="horizontal" role="separator">
+      <div class="v-data-table-footer">
+        <!---->
+        <div class="v-data-table-footer__items-per-page"><span>Items per page:</span>
+          <div class="v-input v-input--horizontal v-input--center-affix v-input--density-compact v-theme--light v-locale--is-ltr v-input--dirty v-text-field v-select v-select--single v-select--selected">
+            <!---->
+            <div class="v-input__control">
+              <div class="v-field v-field--active v-field--appended v-field--center-affix v-field--dirty v-field--no-label v-field--variant-outlined v-theme--light v-locale--is-ltr" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-controls="v-menu-19">
+                <div class="v-field__overlay"></div>
+                <div class="v-field__loader">
+                  <div class="v-progress-linear v-theme--light v-locale--is-ltr" style="top: 0px; height: 0px; --v-progress-linear-height: 2px;" role="progressbar" aria-hidden="true" aria-valuemin="0" aria-valuemax="100">
+                    <!---->
+                    <div class="v-progress-linear__background"></div>
+                    <div class="v-progress-linear__buffer" style="width: 0%;"></div>
+                    <transition-stub name="fade-transition" appear="false" persisted="false" css="true">
+                      <div class="v-progress-linear__indeterminate">
+                        <div class="v-progress-linear__indeterminate long"></div>
+                        <div class="v-progress-linear__indeterminate short"></div>
+                      </div>
+                    </transition-stub>
+                    <!---->
+                  </div>
+                </div>
+                <!---->
+                <div class="v-field__field" data-no-activator="">
+                  <!---->
+                  <!---->
+                  <!---->
+                  <div class="v-field__input" data-no-activator="">
+                    <!---->
+                    <!---->
+                    <div class="v-select__selection"><span class="v-select__selection-text">50<!----></span></div><input size="1" type="text" id="input-17" aria-describedby="input-17-messages" inputmode="none" aria-label="Open" title="Open" value="50">
+                  </div>
+                  <!---->
+                </div>
+                <!---->
+                <div class="v-field__append-inner">
+                  <!----><i class="mdi-menu-down mdi v-icon notranslate v-theme--light v-icon--size-default v-select__menu-icon" aria-hidden="true"></i>
+                  <!---->
+                </div>
+                <div class="v-field__outline">
+                  <div class="v-field__outline__start"></div>
+                  <!---->
+                  <div class="v-field__outline__end"></div>
+                  <!---->
+                </div>
+              </div>
+            </div>
+            <!---->
+            <!---->
+          </div>
+        </div>
+        <div class="v-data-table-footer__info">
+          <div>1-2 of 2</div>
+        </div>
+        <div class="v-data-table-footer__pagination">
+          <nav class="v-pagination v-theme--light" role="navigation" aria-label="Pagination Navigation" data-test="v-pagination-root">
+            <ul class="v-pagination__list">
+              <li class="v-pagination__first" data-test="v-pagination-first"><button type="button" class="v-btn v-btn--disabled v-btn--icon v-theme--light v-btn--density-comfortable v-btn--rounded v-btn--size-default v-btn--variant-plain" disabled="" aria-label="First page" aria-disabled="true"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                  <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-page-first mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
+                  <!---->
+                  <!---->
+                </button></li>
+              <li class="v-pagination__prev" data-test="v-pagination-prev"><button type="button" class="v-btn v-btn--disabled v-btn--icon v-theme--light v-btn--density-comfortable v-btn--rounded v-btn--size-default v-btn--variant-plain" disabled="" aria-label="Previous page" aria-disabled="true"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                  <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-chevron-left mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
+                  <!---->
+                  <!---->
+                </button></li>
+              <li class="v-pagination__next" data-test="v-pagination-next"><button type="button" class="v-btn v-btn--disabled v-btn--icon v-theme--light v-btn--density-comfortable v-btn--rounded v-btn--size-default v-btn--variant-plain" disabled="" aria-label="Next page" aria-disabled="true"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                  <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-chevron-right mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
+                  <!---->
+                  <!---->
+                </button></li>
+              <li class="v-pagination__last" data-test="v-pagination-last"><button type="button" class="v-btn v-btn--disabled v-btn--icon v-theme--light v-btn--density-comfortable v-btn--rounded v-btn--size-default v-btn--variant-plain" disabled="" aria-label="Last page" aria-disabled="true"><span class="v-btn__overlay"></span><span class="v-btn__underlay"></span>
+                  <!----><span class="v-btn__content" data-no-activator=""><i class="mdi-page-last mdi v-icon notranslate v-theme--light v-icon--size-default" aria-hidden="true"></i></span>
+                  <!---->
+                  <!---->
+                </button></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div><!-- Dialogs -->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  <!----><span class="v-card__underlay"></span>
+</div>"
+`;
