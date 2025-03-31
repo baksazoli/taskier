@@ -59,6 +59,11 @@ Ensure you have the following installed:
    ./vendor/bin/sail artisan migrate
    ./vendor/bin/sail artisan db:seed
    ```
+5. **URLs**
+   ```
+   Frontend: http://localhost:5173/
+   Backend: http://localhost
+   ```
 
 ## Usage
 ### Task List View
